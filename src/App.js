@@ -1,5 +1,6 @@
 import Header from "./components/Header/Index";
 import Dining from "./pages/Dining/Index"
+import Footer from "./components/Footer/Index"
 import Test from './components/Test'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div>
       <Header />
       <Dining/>
-      <Test/>
+      {/* <Test/> */}
+      {/* <Footer/> */}
     </div>
   );
 }

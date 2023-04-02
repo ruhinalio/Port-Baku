@@ -19,45 +19,58 @@
   --main-color-two: #ad8849;
   --white-dark: rgb(238, 238, 238);
 }
-.top-side{
-  margin-top:160px ;
+.top-side {
+  margin-top: 160px;
   background-image: url(https://portbakumall.az/resized/fit1920x400/center/pages/57/dine-cover.jpg);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h2{
+  h2 {
     color: var(--white-color);
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 2px;
     text-align: center;
-    margin: .7rem auto;
+    margin: 0.7rem auto;
   }
-  p{
+  p {
     color: var(--white-color);
     font-weight: 400;
     letter-spacing: 1px;
   }
 }
-.brand{
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 0 20px;
- margin: 2rem auto;
- .box{
-  border: 1px solid var(--black-color);
-  width: 600px;
-  height: 0;
- }
- h2{
-  font-size: 1.7rem;
-  font-weight: 300;
- }
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 20px;
+  margin: 2rem auto;
+  .box {
+    border: 1px solid var(--black-color);
+    width: 600px;
+    height: 0;
+  }
+  h2 {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
 }
+.dining-cards {
+  .dining-row {
+    display: flex;
+    // justify-content: space-between;
+    gap: 0 2rem;
+    margin: 2rem 0;
+  }
+}
+.button-side{
+ display: flex;
+ justify-content: center;
+}
+

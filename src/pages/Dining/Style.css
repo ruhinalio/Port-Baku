@@ -64,4 +64,15 @@
 .brand h2 {
   font-size: 1.7rem;
   font-weight: 300;
+}
+
+.dining-cards .dining-row {
+  display: flex;
+  gap: 0 2rem;
+  margin: 2rem 0;
+}
+
+.button-side {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=Style.css.map */

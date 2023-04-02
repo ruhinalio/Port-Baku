@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+:root {
+  --black-color: #252525;
+  --white-color: #fff;
+  --main-color-one: #c9af77;
+  --main-color-two: #ad8849;
+  --white-dark: rgb(238, 238, 238);
+}
+button{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-size: 1rem;
+    font-weight: 200;
+    padding: .5rem 1rem;
+    border: 1px solid var(--black-color);
+    &:hover{
+       background-color: var(--black-color);
+       color: var(--white-color);
+    }
+}
