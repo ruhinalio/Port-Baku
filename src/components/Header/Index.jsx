@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { NavLink } from "react-router-dom";
 import style from "./Style.css";
 import Logo from "../../images/PortBakuLogo.svg";
 const Index = () => {
@@ -26,11 +26,12 @@ const Index = () => {
       <div className="container">
         <nav className="nav-links">
           <ul>
-            <li><a href="#">Eat</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="/"><img src={Logo} alt="" /></a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Contact</a></li>
+          
+            <li><NavLink to="/dining">Eat</NavLink></li>
+            <li><NavLink href="#">Shop</NavLink></li>
+            <li><NavLink href="/home"><img src={Logo} alt="" /></NavLink></li>
+            <li><NavLink href="#">Events</NavLink></li>
+            <li><NavLink href="#">Contact</NavLink></li>
           </ul>
         </nav>
       </div>

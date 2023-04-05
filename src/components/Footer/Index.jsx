@@ -43,6 +43,7 @@ const Index = () => {
   return (
     <div>
       <footer className="footer">
+        {/* <hr /> */}
         <div className="black-line">
           <div className="text">
             <div className="icon-ms">

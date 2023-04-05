@@ -1,6 +1,8 @@
 import React from "react";
 // style file is here
 import style from "./Style.css";
+
+
 // components is here
 import DiningCard from "../../components/Dining-card/Index";
 import ButtonWhite from "../../components/Button-white/Index"

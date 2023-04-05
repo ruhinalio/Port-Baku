@@ -73,6 +73,9 @@
 .footer-side .social li {
   margin: 0;
 }
+.footer-side ul {
+  margin-bottom: 3rem;
+}
 .footer-side li {
   margin: 0.8rem auto;
 }
