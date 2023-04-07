@@ -1,32 +1,147 @@
 [
     {
       "id": 1,
-      "name": "Kalem",
-      "description": "Mavi mürekkepli kalem",
-      "price": 2.99
+      "name": "MC Queen",
+      "description": "Brand",
+      "img": "https://portbakumall.az/resized/resize200/center/pages/61/mcqueen.png"
     },
     {
       "id": 2,
-      "name": "Defter",
-      "description": "A5 boyutunda defter",
-      "price": 5.99
+      "name": "Aloe",
+      "description": "Pharmacy",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/113/aloe.png"
     },
     {
       "id": 3,
-      "name": "Kahve fincanı",
-      "description": "Seramik kahve fincanı",
-      "price": 7.99
+      "name": "Amazon",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/84/amazon-lingerie.png"
     },
     {
       "id": 4,
-      "name": "Mutfak havlusu",
-      "description": "Pamuklu mutfak havlusu",
-      "price": 4.99
+      "name": "Baldini",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/130/baldini.png"
     },
     {
       "id": 5,
-      "name": "Kitap",
-      "description": "Bilim kurgu romanı",
-      "price": 12.99
+      "name": "Balenciaga",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/73/balenciaga.png"
+    },
+    {
+      "id": 6,
+      "name": "Bally",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/77/bally.png"
+    },
+    {
+      "id": 7,
+      "name": "Burms",
+      "description": "Kids",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/143/brums.png"
+    },
+    {
+      "id": 8,
+      "name": "Bugatti",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/132/bugatti.png"
+    },
+    {
+      "id": 9,
+      "name": "Bumblebee",
+      "description": "Kids",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/98/bumblebee.png"
+    },
+    {
+      "id": 10,
+      "name": "BUrberry",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/67/burberry.png"
+    },
+    {
+      "id": 11,
+      "name": "Casamia",
+      "description": "Decoration",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/136/casamia.png"
+    },
+    {
+      "id": 12,
+      "name": "Chicshic",
+      "description": "Woman",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/129/chicchic.png"
+    },
+    {
+      "id": 13,
+      "name": "Chicco",
+      "description": "Kids",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/140/chicco-logo.png"
+    },
+    {
+      "id": 14,
+      "name": "Deisel",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/51/diesel.png"
+    },
+    {
+      "id": 15,
+      "name": "DolceGabbana",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/112/dolcegabbana.png"
+    },
+    {
+      "id": 16,
+      "name": "Emporio-Armani",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/68/emporio-armani.png"
+    },
+    {
+      "id": 17,
+      "name": "Home me",
+      "description": "Decoration",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/94/homme.png"
+    },
+    {
+      "id": 18,
+      "name": "Junior-Club",
+      "description": "Kids",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/146/junior-club.png"
+    },
+    {
+      "id": 19,
+      "name": "Loccitane",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/90/loccitane.png"
+    },
+    {
+      "id": 20,
+      "name": "Lilac",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/92/lilac.png"
+    },
+    {
+      "id": 21,
+      "name": "Pinko",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/121/pinko.png"
+    },
+    {
+      "id": 22,
+      "name": "Entertainer",
+      "description": "Kids",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/139/entertainer.png"
+    },
+    {
+      "id": 23,
+      "name": "Valentino",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/80/valentino.png"
+    },
+    {
+      "id": 24,
+      "name": "Yamamay",
+      "description": "Brand",
+      "img":"https://portbakumall.az/resized/resize200/center/pages/124/yamamay.png"
     }
+ 
   ]

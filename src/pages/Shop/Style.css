@@ -22,7 +22,66 @@
   --white-dark: rgb(238, 238, 238);
 }
 
+.shop-head {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url(https://portbakumall.az/resized/fit1920x400/center/pages/50/brands-cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white-color);
+}
+.shop-head h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.shop-head p {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
 .bodyo {
   margin-top: 6rem;
   padding: 6rem;
+}
+
+.ranking {
+  width: 30%;
+  align-items: center;
+  border: 1px solid var(--main-color-two);
+  padding: 1.1rem 0.8rem;
+  font-size: 1.1rem;
+  margin: 2rem 0 1rem 2rem;
+  font-weight: 600;
+}
+.ranking:focus {
+  border: 1px solid var(--main-color-one);
+}
+
+.brands-side {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands-side .center-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands-side h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.brands-side p {
+  font-size: 1.2rem;
+  font-weight: 400;
 }/*# sourceMappingURL=Style.css.map */

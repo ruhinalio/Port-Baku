@@ -30,7 +30,7 @@ const Index = () => {
             <li><NavLink to="/dining">Eat</NavLink></li>
             <li><NavLink to="/shop">Shop</NavLink></li>
             <li><NavLink to="/"><img src={Logo} alt="" /></NavLink></li>
-            <li><NavLink href="#">Events</NavLink></li>
+            <li><NavLink to="/events">Events</NavLink></li>
             <li><NavLink href="#">Contact</NavLink></li>
           </ul>
         </nav>

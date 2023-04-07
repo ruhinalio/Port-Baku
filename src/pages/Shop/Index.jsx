@@ -3,6 +3,7 @@ import productsData from "../../Brands.json";
 import "./Style.css";
 import Header from "../../components/Header/Index";
 import Footer from "../../components/Footer/Index";
+import WhiteBtn from "../../components/Button-white/Index";
 
 const Index = () => {
   const [products, setProducts] = useState([]);
@@ -36,20 +37,28 @@ const Index = () => {
       </div>
 
       <div>
-        <select onChange={handleSort}>
+        <select onChange={handleSort} className="ranking">
           <option value="asc">A-Z</option>
           <option value="desc">Z-A</option>
         </select>
         {products.map((product) => (
-          <div key={product.id} className="brand">
-            <h2>{product.name}</h2>
-            <p>{product.description}</p>
-            <p>{product.price}</p>
+          <div key={product.id} className="brands-side container">
+            <div className="left-side">
+              <h2>{product.name}</h2>
+            </div>
+            <div className="center-side">
+              <img src={product.img} alt="" />
+            </div>
+            <div className="left-side">
+              <p>{product.description}</p>
+              <WhiteBtn text="more details" />
+            </div>
           </div>
         ))}
       </div>
-
-      <Footer />
+      <div className="footer-side">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+:root {
+  --black-color: #252525;
+  --white-color: #fff;
+  --main-color-one: #c9af77;
+  --main-color-two: #ad8849;
+  --white-dark: rgb(238, 238, 238);
+}
+.header-events{
+  background-image: url(https://www.thegalleria.ae/media/images/Lifestyle_-_The_Promenade.2e16d0ba.fill-1920x885.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 160px;
+  h2{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--white-color);
+  }
+  p{
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-color);
+  }
+}

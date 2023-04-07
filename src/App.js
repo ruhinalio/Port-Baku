@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Index";
 import Dining from "./pages/Dining/Index";
 import Shop from "./pages/Shop/Index"
 import Portbaku from "./pages/PortBaku/Index";
+import Events from "./pages/Events/Index"
 import Test from "./components/Test";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Portbaku />} />
         <Route path="/dining" element={<Dining />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
     </div>
   );
