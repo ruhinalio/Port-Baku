@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Kalem",
+      "description": "Mavi mürekkepli kalem",
+      "price": 2.99
+    },
+    {
+      "id": 2,
+      "name": "Defter",
+      "description": "A5 boyutunda defter",
+      "price": 5.99
+    },
+    {
+      "id": 3,
+      "name": "Kahve fincanı",
+      "description": "Seramik kahve fincanı",
+      "price": 7.99
+    },
+    {
+      "id": 4,
+      "name": "Mutfak havlusu",
+      "description": "Pamuklu mutfak havlusu",
+      "price": 4.99
+    },
+    {
+      "id": 5,
+      "name": "Kitap",
+      "description": "Bilim kurgu romanı",
+      "price": 12.99
+    }
+  ]

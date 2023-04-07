@@ -91,6 +91,11 @@
 .brand-side {
   margin: 2rem auto;
 }
+.brand-side .head h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 1rem;
+}
 .brand-side .button {
   display: flex;
   justify-content: center;

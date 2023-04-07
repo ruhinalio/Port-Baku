@@ -77,6 +77,11 @@ const Index = () => {
             />
           </div>
           <div className="brand-side">
+            <div className="head">
+              <div className="empty"></div>
+              <h2> Brands</h2>
+              <div className="empty"></div>
+            </div>
             <Swiper
               // install Swiper modules
               modules={[Navigation, Pagination, Scrollbar, A11y]}
