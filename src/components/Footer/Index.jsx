@@ -41,7 +41,6 @@ const Index = () => {
     );
   }
   return (
-    <div>
       <footer className="footer">
         {/* <hr /> */}
         <div className="black-line">
@@ -139,7 +138,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
   );
 };
 

@@ -23,7 +23,7 @@ const index = () => {
     <div>
       <div className="top-side">
         <div className="content">
-          <h2>DINING</h2>
+          <h2>DINING </h2>
           <p>Savor the culinary pleasures of our restaurants and cafeterias</p>
         </div>
       </div>

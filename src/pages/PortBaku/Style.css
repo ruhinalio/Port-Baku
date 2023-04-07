@@ -22,8 +22,11 @@
   --white-dark: rgb(238, 238, 238);
 }
 
-.home-page {
-  margin-top: 10rem;
+.header-side {
+  width: 100%;
+}
+.header-side video {
+  width: 100%;
 }
 
 .shop-dine {
@@ -68,6 +71,7 @@
   margin: 2rem auto;
 }
 .news-events .head {
+  margin: 2rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,10 +80,19 @@
 .news-events .head .empty {
   height: 0;
   flex: 1;
-  border: 1px solid var(--black-color);
+  border: 0.5px solid var(--black-color);
 }
 .news-events .head h2 {
   font-size: 1.5rem;
   font-weight: 400;
   margin: 0 1rem;
+}
+
+.brand-side {
+  margin: 2rem auto;
+}
+.brand-side .button {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
 }/*# sourceMappingURL=Style.css.map */

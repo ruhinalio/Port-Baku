@@ -24,6 +24,8 @@
 
 .footer {
   margin: 5rem auto;
+  position: relative;
+  bottom: 0;
 }
 
 .black-line {
@@ -38,10 +40,6 @@
   width: 300px;
   letter-spacing: 1px;
   gap: 10px 0;
-}
-.black-line .text .icon-ms {
-  width: 30px;
-  height: 30px;
 }
 .black-line .import {
   display: flex;
