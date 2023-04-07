@@ -46,4 +46,56 @@
   font-size: 1rem;
   font-weight: 400;
   color: var(--white-color);
+}
+
+.actions-events {
+  margin: 2rem auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+}
+.actions-events a {
+  font-size: 1.4rem;
+  color: var(--main-color-two);
+  padding: 1rem 1.4rem;
+}
+.actions-events .active {
+  background-color: var(--white-dark);
+}
+
+.event-side {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.event-side .events-card-row {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+}
+.event-side .events-card-row .evend-side-card {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+}
+.event-side .events-card-row .evend-side-card img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+}
+.event-side .events-card-row .evend-side-card h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--black-color);
+  letter-spacing: 1px;
+  margin: 1rem 0;
+}
+.event-side .events-card-row .evend-side-card p {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--black-color);
+}
+.event-side .events-card-row .evend-side-card:hover img {
+  filter: grayscale(0%);
 }/*# sourceMappingURL=Style.css.map */
