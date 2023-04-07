@@ -10,7 +10,7 @@ const Index = () => {
       <div className="body-events">
          <div className="header-events">
           <h2>EXTRAORDINARY EVENTS AND CELEBRATIONS</h2>
-          <p>With a full calendar of seasonal celebrations, activities and special events for the whole family, there's always something to see and do.</p>
+          <p>With a full calendar of seasonal celebrations, activities and special events for the whole family, there's always something to see and  do.</p>
          </div>
       </div>
       <div className="container">
