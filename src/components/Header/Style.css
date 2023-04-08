@@ -30,19 +30,16 @@ a {
 .container {
   max-width: 1200px;
   max-height: 200px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .header {
   transition: 0.3s;
   position: fixed;
   top: 0;
-  height: 160px;
+  height: 130px;
   z-index: 99;
   width: 100%;
-  margin: 0.3rem auto;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .header .nav {
   display: flex;

@@ -64,3 +64,4 @@ const Index = () => {
 };
 
 export default Index;
+// tabs mentiqi

@@ -30,7 +30,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 160px;
+  margin-top: 130px;
   h2{
     letter-spacing: 1px;
     font-size: 1.5rem;
@@ -63,6 +63,7 @@
  max-width: 1500px;
   margin: 0 auto;
   .events-card-row{
+    // background-color: #ad8849;
     margin: 20px auto;
     display: flex;
     justify-content:center;
