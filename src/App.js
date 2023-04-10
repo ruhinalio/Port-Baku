@@ -7,6 +7,7 @@ import Dining from "./pages/Dining/Index";
 import Shop from "./pages/Shop/Index"
 import Portbaku from "./pages/PortBaku/Index";
 import Events from "./pages/Events/Index"
+import Contact from "./pages/Contact/Index"
 import Test from "./components/Test";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/dining" element={<Dining />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
