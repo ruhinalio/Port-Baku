@@ -69,6 +69,7 @@
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .event-side {

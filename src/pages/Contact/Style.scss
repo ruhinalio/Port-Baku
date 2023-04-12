@@ -59,5 +59,28 @@
   justify-content: center;
   margin: 0 auto;
 }
-
+form{
+  display:flex;
+  justify-content:center;
+  .form-side{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 30px;
+    input{
+      width:250px;
+    }
+  }
+  .form-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    
+  }
+  .form-right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+  }
+}
 

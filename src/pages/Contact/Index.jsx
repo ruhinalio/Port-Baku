@@ -1,4 +1,5 @@
 import React from "react";
+import {useState } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 // style
@@ -8,6 +9,13 @@ import WhiteBtn from "../../components/Button-white/Index";
 import Footer from "../../components/Footer/Index";
 
 const Index = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('Form submitted!');
+  };
   return (
     <div>
       <div className="contact-header">
@@ -18,11 +26,11 @@ const Index = () => {
         <Tabs>
           <TabList className="test">
             <div className="empty-margin"></div>
-            <Tab>
-              <h2 className="tab-name">Location</h2>
+            <Tab className="tab-name">
+              <h2 className="tab-name">Contact</h2>
             </Tab>
-            <Tab>
-              <h2 className="tab-name">News</h2>
+            <Tab className="tab-name">
+              <h2 className="tab-name">Reserved</h2>
             </Tab>
             <div className="empty-margin"></div>
           </TabList>
@@ -31,7 +39,9 @@ const Index = () => {
             <div className="location">
               <div className="location-top">
                 <h2>
-                  {" "}
+                  <span>phone</span>+994 12 599 00 97
+                </h2>
+                <h2>
                   <span>adress:</span>PORT BAKU MALL 151 NEFTCHILAR AV. BAKU,
                   AZERBAIJAN
                 </h2>
@@ -52,38 +62,54 @@ const Index = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="news-side">
-              <div className="news-side-row">
-                <div className="news-side-card">
-                  <img
-                    src="https://portbakumall.az/resized/fit463x300/center/pages/194/resized.jpg"
-                    alt=""
+            <form action="#" onSubmit={handleSubmit}>
+              <div className="form-left-side">
+                <div className="name-side form-side">
+                  <h4>Full Name</h4>
+                  <input type="text" 
+                   id="name"
+                   value={name}
+                   onChange={(e) => setName(e.target.value)}
+                   required
                   />
-                  <h4>
-                    Feel the Arrival of Spring at Port Baku Shopping Center
-                  </h4>
-                  <p>
-                    From March 21-23, Port Baku Mall welcomes its visitors with
-                    a festive atmosphere.
-                  </p>
-                  <WhiteBtn text="More news" />
                 </div>
-                <div className="news-side-card">
-                  <img
-                    src="https://portbakumall.az/resized/fit463x300/center/pages/194/resized.jpg"
-                    alt=""
-                  />
-                  <h4>
-                    Feel the Arrival of Spring at Port Baku Shopping Center
-                  </h4>
-                  <p>
-                    From March 21-23, Port Baku Mall welcomes its visitors with
-                    a festive atmosphere.
-                  </p>
-                  <WhiteBtn text="More news" />
+                <div className="number-side form-side">
+                  <h4>Phone Number</h4>
+                  <input type="number" />
+                </div>
+                <div className="hall-side form-side">
+                  <h4>Select the hall</h4>
+                  <select name="hall" id="reserved-hall">
+                    <option value="select">Select the hall</option>
+                    <option value="entry">Entry hall</option>
+                    <option value="center">Center hall</option>
+                    <option value="emporium">Emporium</option>
+                    <option value="paul">Paul</option>
+                  </select>
                 </div>
               </div>
-            </div>
+              <div className="form-right-side">
+                <div className="email-side form-side">
+                  <h4>Email</h4>
+                  <input type="email" 
+                    id="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                  />
+                </div>
+                <div className="date-side form-side">
+                  <h4>Day</h4>
+                  <input type="date" />
+                </div>
+                <div className="mejjage-side form-side">
+                  <h4>Message</h4>
+                  <input type="message" />
+                </div>
+                <button type="submit">Send</button>
+              </div>
+            </form>
           </TabPanel>
         </Tabs>
         <Footer />

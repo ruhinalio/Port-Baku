@@ -22,11 +22,11 @@ const Index = () => {
         </div>
         <div className="body-events">
          <div className="header-margin"></div>
-          <Tabs>
+          <Tabs className="container">
             <TabList className="test">
               <div className="empty-margin"></div>
-              <Tab><h2 className="tab-name">Events</h2></Tab>
-              <Tab><h2 className="tab-name">News</h2></Tab>
+              <Tab className="tab-name"><h2 className="tab-name">Events</h2></Tab>
+              <Tab className="tab-name"><h2 className="tab-name">News</h2></Tab>
               <div className="empty-margin"></div>
             </TabList>
 
@@ -86,12 +86,13 @@ const Index = () => {
                 </div>
               </div>
             </TabPanel>
+        <Footer />
+
           </Tabs>
+
         </div>
       </div>
-      <div className="container">
-        <Footer />
-      </div>
+     
     </div>
   );
 };

@@ -58,4 +58,28 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+form .form-side {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 30px;
+}
+form .form-side input {
+  width: 250px;
+}
+form .form-left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+form .form-right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
 }/*# sourceMappingURL=Style.css.map */
