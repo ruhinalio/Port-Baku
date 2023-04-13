@@ -1,6 +1,8 @@
 import React from "react";
-import {useState } from "react"
+import {useState,useEffect } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { BiMessageSquareDetail, BiRightArrowAlt } from "react-icons/bi";
+
 import "react-tabs/style/react-tabs.css";
 // style
 import "./Style.css";
@@ -11,7 +13,43 @@ import Footer from "../../components/Footer/Index";
 const Index = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('')
+  function Popup() {
+    const [showPopup, setShowPopup] = useState(false);
 
+    const handleShow = () => {
+      setShowPopup(true);
+    };
+
+    const handleClose = () => {
+      setShowPopup(false);
+    };
+
+    useEffect(() => {
+      let timer;
+      if (showPopup) {
+        timer = setTimeout(() => {
+          handleClose();
+        }, 3000);
+      }
+      return () => clearTimeout(timer);
+    }, [showPopup]);
+
+    return (
+      <div>
+        <button className="send" onClick={handleShow}>
+          Send!
+        </button>
+        {showPopup && (
+          <div className="popup">
+            <div className="popup__content">
+              <p>Sent!</p>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('Form submitted!');
@@ -72,10 +110,18 @@ const Index = () => {
                    onChange={(e) => setName(e.target.value)}
                    required
                   />
+         
+
                 </div>
                 <div className="number-side form-side">
                   <h4>Phone Number</h4>
-                  <input type="number" />
+                  <input type="number" 
+                  id="number"
+                  value={number}
+                  onChange= {(e)=>setNumber(e.target.value)}
+                  required
+                  />
+                 
                 </div>
                 <div className="hall-side form-side">
                   <h4>Select the hall</h4>
@@ -107,7 +153,10 @@ const Index = () => {
                   <h4>Message</h4>
                   <input type="message" />
                 </div>
-                <button type="submit">Send</button>
+                <div className="button-side form-side">
+                <Popup />
+
+                </div>
               </div>
             </form>
           </TabPanel>
