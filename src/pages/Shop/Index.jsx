@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import productsData from "../../Brands.json";
-import "./Style.css";
+// import "./Style.css";
 import Header from "../../components/Header/Index";
 import Footer from "../../components/Footer/Index";
 import WhiteBtn from "../../components/Button-white/Index";

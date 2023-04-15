@@ -1,7 +1,7 @@
 import React from "react";
 
 // style is here
-import "./Style.css";
+// import "./Style.css";
 // components is here
 import Footer from "../../components/Footer/Index";
 import CardLeft from "../../components/Card-left-img/Index";
@@ -13,7 +13,6 @@ import Video1 from "../../videos/pb-video.mp4";
 import News1 from "../../images/news-img/baby-girl.jpg";
 import News2 from "../../images/news-img/national-girl.webp";
 import News3 from "../../images/news-img/news-girl.webp";
-import Sekil1 from "../../images/dininig-cover.webp";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";

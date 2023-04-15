@@ -5,7 +5,7 @@ import { BiMessageSquareDetail, BiRightArrowAlt } from "react-icons/bi";
 
 import "react-tabs/style/react-tabs.css";
 // style
-import "./Style.css";
+// import "./Style.css";
 // components
 import WhiteBtn from "../../components/Button-white/Index";
 import Footer from "../../components/Footer/Index";

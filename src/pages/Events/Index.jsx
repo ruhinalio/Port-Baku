@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import "./Style.css";
+// import "./Style.css";
 //components
 import Header from "../../components/Header/Index";
 import Footer from "../../components/Footer/Index";

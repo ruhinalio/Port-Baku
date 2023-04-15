@@ -1,6 +1,6 @@
 import React from "react";
 // style file is here
-import style from "./Style.css";
+// import style from "./Style.css";
 
 
 // components is here
